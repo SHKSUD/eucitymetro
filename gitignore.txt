@@ -1,0 +1,16 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+
+# Google Service Account Key (Security Risk)
+stationsteps-maps-8606569f2c45.txt

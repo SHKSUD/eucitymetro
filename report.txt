@@ -1,0 +1,319 @@
+PS C:\D_DRIVE\PARISMETRO\gitpush\SS_gitrepo_productionbuild> git commit -m "Production Build v6.3: 172 Landmarks with FAQ Accordions"
+[main 8d62356] Production Build v6.3: 172 Landmarks with FAQ Accordions
+ 167 files changed, 42648 insertions(+), 648 deletions(-)
+ create mode 100644 en/amsterdam/a-dam-lookout.html
+ create mode 100644 en/amsterdam/amsterdam-centraal-station.html
+ create mode 100644 en/amsterdam/anne-frank-house.html
+ create mode 100644 en/amsterdam/bloemenmarkt-flower-market.html
+ create mode 100644 en/amsterdam/dam-square.html
+ create mode 100644 en/amsterdam/heineken-experience.html
+ create mode 100644 en/amsterdam/index.html
+ create mode 100644 en/amsterdam/rembrandt-house-museum.html
+ create mode 100644 en/amsterdam/rijksmuseum.html
+ create mode 100644 en/amsterdam/royal-palace-amsterdam.html
+ create mode 100644 en/amsterdam/stedelijk-museum.html
+ create mode 100644 en/amsterdam/van-gogh-museum.html
+ create mode 100644 en/amsterdam/vondelpark.html
+ create mode 100644 en/barcelona/aeroport-de-barcelona-bcn.html
+ create mode 100644 en/barcelona/arc-de-triomf-ciutadella.html
+ create mode 100644 en/barcelona/barceloneta-beach.html
+ create mode 100644 en/barcelona/camp-nou-fc-barcelona.html
+ create mode 100644 en/barcelona/casa-batll.html
+ create mode 100644 en/barcelona/catedral-de-barcelona-g-tic.html
+ create mode 100644 en/barcelona/gothic-quarter-barri-g-tic.html
+ create mode 100644 en/barcelona/index.html
+ create mode 100644 en/barcelona/la-pedrera-casa-mil.html
+ create mode 100644 en/barcelona/las-ramblas-la-boqueria.html
+ create mode 100644 en/barcelona/mercat-de-la-boqueria.html
+ create mode 100644 en/barcelona/montju-c-cable-car-castle.html
+ create mode 100644 en/barcelona/montju-c-fundaci-mir.html
+ create mode 100644 en/barcelona/museu-picasso.html
+ create mode 100644 en/barcelona/park-g-ell.html
+ create mode 100644 en/barcelona/picasso-museum.html
+ create mode 100644 en/barcelona/platja-de-la-barceloneta.html
+ create mode 100644 en/barcelona/sagrada-fam-lia.html
+ create mode 100644 en/berlin/alexanderplatz-tv-tower.html
+ create mode 100644 en/berlin/ber-airport-terminal-1-2.html
+ create mode 100644 en/berlin/berlin-cathedral-berliner-dom.html
+ create mode 100644 en/berlin/berlin-hauptbahnhof.html
+ create mode 100644 en/berlin/berlin-tv-tower-fernsehturm.html
+ create mode 100644 en/berlin/brandenburg-gate.html
+ create mode 100644 en/berlin/charlottenburg-palace.html
+ create mode 100644 en/berlin/checkpoint-charlie.html
+ create mode 100644 en/berlin/east-side-gallery.html
+ create mode 100644 en/berlin/friedrichstra-e-station.html
+ create mode 100644 en/berlin/index.html
+ create mode 100644 en/berlin/jewish-museum-berlin.html
+ create mode 100644 en/berlin/kaiser-wilhelm-memorial-church.html
+ create mode 100644 en/berlin/memorial-to-the-murdered-jews-of-europe.html
+ create mode 100644 en/berlin/museum-island-james-simon-gallery.html
+ create mode 100644 en/berlin/museum-island-pergamon-altes.html
+ create mode 100644 en/berlin/potsdamer-platz-refined.html
+ create mode 100644 en/berlin/potsdamer-platz.html
+ create mode 100644 en/berlin/reichstag-bundestag.html
+ create mode 100644 en/berlin/reichstag.html
+ create mode 100644 en/berlin/tempelhofer-feld.html
+ create mode 100644 en/berlin/tiergarten-park.html
+ create mode 100644 en/berlin/topography-of-terror.html
+ create mode 100644 en/berlin/victory-column-siegess-ule.html
+ create mode 100644 en/madrid/almudena-cathedral.html
+ create mode 100644 en/madrid/atocha-station-estaci-n-de-atocha.html
+ create mode 100644 en/madrid/index.html
+ create mode 100644 en/madrid/mercado-de-san-miguel.html
+ create mode 100644 en/madrid/museo-del-prado.html
+ create mode 100644 en/madrid/museo-nacional-thyssen-bornemisza.html
+ create mode 100644 en/madrid/museo-reina-sof-a.html
+ create mode 100644 en/madrid/palacio-real-de-madrid.html
+ create mode 100644 en/madrid/parque-del-retiro.html
+ create mode 100644 en/madrid/plaza-de-espa-a.html
+ create mode 100644 en/madrid/plaza-mayor.html
+ create mode 100644 en/madrid/puerta-del-sol.html
+ create mode 100644 en/madrid/retiro-park-parque-de-el-retiro.html
+ create mode 100644 en/rome/capitoline-museums.html
+ create mode 100644 en/rome/castel-sant-angelo.html
+ create mode 100644 en/rome/colosseum.html
+ create mode 100644 en/rome/index.html
+ create mode 100644 en/rome/pantheon.html
+ create mode 100644 en/rome/piazza-navona.html
+ create mode 100644 en/rome/roman-forum.html
+ create mode 100644 en/rome/spanish-steps.html
+ create mode 100644 en/rome/trastevere-santa-maria-square.html
+ create mode 100644 en/rome/trevi-fountain.html
+ create mode 100644 en/vatican-city/index.html
+ create mode 100644 en/vatican-city/st-peter-s-basilica.html
+ create mode 100644 en/vatican-city/vatican-museums-musei-vaticani.html
+ create mode 100644 en/vatican-city/vatican-museums.html
+ create mode 100644 en/vienna/hofburg-sisi-museum.html
+ create mode 100644 en/vienna/hundertwasserhaus.html
+ create mode 100644 en/vienna/index.html
+ create mode 100644 en/vienna/naschmarkt.html
+ create mode 100644 en/vienna/prater-giant-ferris-wheel.html
+ create mode 100644 en/vienna/sch-nbrunn-palace.html
+ create mode 100644 en/vienna/st-stephen-s-cathedral.html
+ create mode 100644 en/vienna/the-albertina-museum.html
+ create mode 100644 en/vienna/upper-belvedere.html
+ create mode 100644 en/vienna/vienna-state-opera.html
+ create mode 100644 en/zurich/bahnhofstrasse.html
+ create mode 100644 en/zurich/fraum-nster.html
+ create mode 100644 en/zurich/index.html
+ create mode 100644 en/zurich/kunsthaus-zurich.html
+ create mode 100644 en/zurich/lake-zurich-promenade.html
+ create mode 100644 en/zurich/swiss-national-museum.html
+ create mode 100644 en/zurich/uetliberg-top-of-zurich.html
+ rename improvedscript.py => improvisedscript_7.0.py (59%)
+ create mode 100644 stationsteps-maps-8606569f2c45.txt
+PS C:\D_DRIVE\PARISMETRO\gitpush\SS_gitrepo_productionbuild> git push -u origin main --force
+Enumerating objects: 258, done.
+Counting objects: 100% (258/258), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (258/258), done.
+Writing objects: 100% (258/258), 628.76 KiB | 4.31 MiB/s, done.
+Total 258 (delta 223), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (223/223), done.
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote:
+remote: - GITHUB PUSH PROTECTION
+remote:   —————————————————————————————————————————
+remote:     Resolve the following violations before pushing again
+remote:
+remote:     - Push cannot contain secrets
+remote:
+remote:
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+remote:
+remote:
+remote:       —— Google Cloud Service Account Credentials ——————————
+remote:        locations:
+remote:          - commit: 8d623567b59c109952233837bf23c914ffb20ba2
+remote:            path: stationsteps-maps-8606569f2c45.txt:1
+remote:
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/SHKSUD/eucitymetro/security/secret-scanning/unblock-secret/3A1BOp7POCKkwrP0AOwudbwn6F
+remote:
+remote:
+remote:
+To https://github.com/SHKSUD/eucitymetro.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/SHKSUD/eucitymetro.git'
+PS C:\D_DRIVE\PARISMETRO\gitpush\SS_gitrepo_productionbuild> git status; git log -n 1 --stat
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+commit 8d623567b59c109952233837bf23c914ffb20ba2 (HEAD -> main)
+Author: Converse Convert <connverseconnvert@gmail.com>
+Date:   Sun Feb 22 14:19:12 2026 +0530
+
+    Production Build v6.3: 172 Landmarks with FAQ Accordions
+
+ Final_Master_Silo_with_Schemas.csv                 | 11877 +++++++++++++++++++
+ en/amsterdam/a-dam-lookout.html                    |   247 +
+ en/amsterdam/amsterdam-centraal-station.html       |   247 +
+ en/amsterdam/anne-frank-house.html                 |   247 +
+ en/amsterdam/bloemenmarkt-flower-market.html       |   247 +
+ en/amsterdam/dam-square.html                       |   247 +
+ en/amsterdam/heineken-experience.html              |   247 +
+ en/amsterdam/index.html                            |    74 +
+ en/amsterdam/rembrandt-house-museum.html           |   247 +
+ en/amsterdam/rijksmuseum.html                      |   247 +
+ en/amsterdam/royal-palace-amsterdam.html           |   247 +
+ en/amsterdam/stedelijk-museum.html                 |   247 +
+ en/amsterdam/van-gogh-museum.html                  |   247 +
+ en/amsterdam/vondelpark.html                       |   247 +
+ en/barcelona/aeroport-de-barcelona-bcn.html        |   247 +
+ en/barcelona/arc-de-triomf-ciutadella.html         |   247 +
+ en/barcelona/barceloneta-beach.html                |   247 +
+ en/barcelona/camp-nou-fc-barcelona.html            |   247 +
+ en/barcelona/casa-batll.html                       |   247 +
+ en/barcelona/catedral-de-barcelona-g-tic.html      |   247 +
+ en/barcelona/gothic-quarter-barri-g-tic.html       |   247 +
+ en/barcelona/index.html                            |   104 +
+ en/barcelona/la-pedrera-casa-mil.html              |   247 +
+ en/barcelona/las-ramblas-la-boqueria.html          |   247 +
+ en/barcelona/mercat-de-la-boqueria.html            |   247 +
+ en/barcelona/montju-c-cable-car-castle.html        |   247 +
+ en/barcelona/montju-c-fundaci-mir.html             |   247 +
+ en/barcelona/museu-picasso.html                    |   247 +
+ en/barcelona/park-g-ell.html                       |   247 +
+ en/barcelona/picasso-museum.html                   |   247 +
+ en/barcelona/platja-de-la-barceloneta.html         |   247 +
+ en/barcelona/sagrada-fam-lia.html                  |   247 +
+ en/berlin/alexanderplatz-tv-tower.html             |   247 +
+ en/berlin/ber-airport-terminal-1-2.html            |   247 +
+ en/berlin/berlin-cathedral-berliner-dom.html       |   247 +
+ en/berlin/berlin-hauptbahnhof.html                 |   247 +
+ en/berlin/berlin-tv-tower-fernsehturm.html         |   247 +
+ en/berlin/brandenburg-gate.html                    |   247 +
+ en/berlin/charlottenburg-palace.html               |   247 +
+ en/berlin/checkpoint-charlie.html                  |   247 +
+ en/berlin/east-side-gallery.html                   |   247 +
+ en/berlin/friedrichstra-e-station.html             |   247 +
+ en/berlin/index.html                               |   125 +
+ en/berlin/jewish-museum-berlin.html                |   247 +
+ en/berlin/kaiser-wilhelm-memorial-church.html      |   247 +
+ .../memorial-to-the-murdered-jews-of-europe.html   |   247 +
+ en/berlin/museum-island-james-simon-gallery.html   |   247 +
+ en/berlin/museum-island-pergamon-altes.html        |   247 +
+ en/berlin/potsdamer-platz-refined.html             |   247 +
+ en/berlin/potsdamer-platz.html                     |   247 +
+ en/berlin/reichstag-bundestag.html                 |   247 +
+ en/berlin/reichstag.html                           |   247 +
+ en/berlin/tempelhofer-feld.html                    |   247 +
+ en/berlin/tiergarten-park.html                     |   247 +
+ en/berlin/topography-of-terror.html                |   247 +
+ en/berlin/victory-column-siegess-ule.html          |   247 +
+ en/london/10-downing-street.html                   |   113 +-
+ en/london/borough-market.html                      |   113 +-
+ en/london/british-museum.html                      |   113 +-
+ en/london/buckingham-palace.html                   |   113 +-
+ en/london/camden-market.html                       |   113 +-
+ en/london/churchill-war-rooms.html                 |   113 +-
+ en/london/covent-garden.html                       |   113 +-
+ en/london/horse-guards-parade.html                 |   113 +-
+ en/london/houses-of-parliament.html                |   113 +-
+ en/london/hyde-park.html                           |   113 +-
+ en/london/index.html                               |   156 +-
+ en/london/kensington-palace.html                   |   113 +-
+ en/london/london-eye.html                          |   113 +-
+ en/london/national-gallery.html                    |   113 +-
+ en/london/natural-history-museum.html              |   113 +-
+ en/london/piccadilly-circus.html                   |   113 +-
+ en/london/royal-albert-hall.html                   |   113 +-
+ en/london/royal-observatory-greenwich.html         |   113 +-
+ en/london/science-museum.html                      |   113 +-
+ en/london/st-paul-s-cathedral.html                 |   113 +-
+ en/london/tate-modern.html                         |   113 +-
+ en/london/the-mall.html                            |   113 +-
+ en/london/the-shard.html                           |   113 +-
+ en/london/tower-bridge.html                        |   113 +-
+ en/london/tower-of-london.html                     |   113 +-
+ en/london/trafalgar-square.html                    |   113 +-
+ en/london/westminster-abbey.html                   |   113 +-
+ en/madrid/almudena-cathedral.html                  |   247 +
+ en/madrid/atocha-station-estaci-n-de-atocha.html   |   247 +
+ en/madrid/index.html                               |    83 +
+ en/madrid/mercado-de-san-miguel.html               |   247 +
+ en/madrid/museo-del-prado.html                     |   247 +
+ en/madrid/museo-nacional-thyssen-bornemisza.html   |   247 +
+ en/madrid/museo-reina-sof-a.html                   |   247 +
+ en/madrid/palacio-real-de-madrid.html              |   247 +
+ en/madrid/parque-del-retiro.html                   |   247 +
+ en/madrid/plaza-de-espa-a.html                     |   247 +
+ en/madrid/plaza-mayor.html                         |   247 +
+ en/madrid/puerta-del-sol.html                      |   247 +
+ en/madrid/retiro-park-parque-de-el-retiro.html     |   247 +
+ en/paris/arc-de-triomphe.html                      |   113 +-
+ en/paris/canal-saint-martin.html                   |   113 +-
+ .../catacombs-of-paris-accessible-entry-focus.html |   113 +-
+ en/paris/centre-pompidou.html                      |   113 +-
+ en/paris/cit-des-sciences-et-de-l-industrie.html   |   113 +-
+ en/paris/conciergerie.html                         |   113 +-
+ en/paris/dal-paris-espace-dal.html                 |   113 +-
+ en/paris/eiffel-tower.html                         |   113 +-
+ en/paris/fondation-louis-vuitton.html              |   113 +-
+ en/paris/gare-de-lyon.html                         |   113 +-
+ en/paris/gare-du-nord.html                         |   113 +-
+ en/paris/grand-palais.html                         |   113 +-
+ en/paris/index.html                                |   236 +-
+ en/paris/jardin-des-tuileries.html                 |   113 +-
+ en/paris/les-invalides-mus-e-de-l-arm-e.html       |   113 +-
+ en/paris/louvre-museum.html                        |   113 +-
+ en/paris/luxembourg-gardens.html                   |   113 +-
+ en/paris/mus-e-d-orsay.html                        |   113 +-
+ en/paris/mus-e-de-l-orangerie.html                 |   113 +-
+ en/paris/mus-e-du-quai-branly-jacques-chirac.html  |   113 +-
+ en/paris/mus-e-picasso-paris.html                  |   113 +-
+ en/paris/mus-e-rodin.html                          |   113 +-
+ en/paris/notre-dame-cathedral.html                 |   113 +-
+ en/paris/palais-garnier-opera.html                 |   113 +-
+ en/paris/parc-des-buttes-chaumont.html             |   113 +-
+ en/paris/petit-palais.html                         |   113 +-
+ en/paris/place-de-la-concorde.html                 |   113 +-
+ en/paris/place-de-la-madeleine.html                |   113 +-
+ en/paris/place-de-la-r-publique.html               |   113 +-
+ en/paris/place-des-vosges.html                     |   113 +-
+ en/paris/pont-alexandre-iii.html                   |   113 +-
+ en/paris/sacr-c-ur-basilica.html                   |   113 +-
+ en/paris/sainte-chapelle.html                      |   113 +-
+ en/paris/the-panth-on.html                         |   113 +-
+ en/paris/tour-montparnasse.html                    |   113 +-
+ en/rome/capitoline-museums.html                    |   247 +
+ en/rome/castel-sant-angelo.html                    |   247 +
+ en/rome/colosseum.html                             |   247 +
+ en/rome/index.html                                 |    65 +
+ en/rome/pantheon.html                              |   247 +
+ en/rome/piazza-navona.html                         |   247 +
+ en/rome/roman-forum.html                           |   247 +
+ en/rome/spanish-steps.html                         |   247 +
+ en/rome/trastevere-santa-maria-square.html         |   247 +
+ en/rome/trevi-fountain.html                        |   247 +
+ en/vatican-city/index.html                         |    47 +
+ en/vatican-city/st-peter-s-basilica.html           |   247 +
+ .../vatican-museums-musei-vaticani.html            |   247 +
+ en/vatican-city/vatican-museums.html               |   247 +
+ en/vienna/hofburg-sisi-museum.html                 |   247 +
+ en/vienna/hundertwasserhaus.html                   |   247 +
+ en/vienna/index.html                               |    65 +
+ en/vienna/naschmarkt.html                          |   247 +
+ en/vienna/prater-giant-ferris-wheel.html           |   247 +
+ en/vienna/sch-nbrunn-palace.html                   |   247 +
+ en/vienna/st-stephen-s-cathedral.html              |   247 +
+ en/vienna/the-albertina-museum.html                |   247 +
+ en/vienna/upper-belvedere.html                     |   247 +
+ en/vienna/vienna-state-opera.html                  |   247 +
+ en/zurich/bahnhofstrasse.html                      |   247 +
+ en/zurich/fraum-nster.html                         |   247 +
+ en/zurich/index.html                               |    62 +
+ en/zurich/kunsthaus-zurich.html                    |   247 +
+ en/zurich/lake-zurich-promenade.html               |   247 +
+ en/zurich/swiss-national-museum.html               |   247 +
+ en/zurich/uetliberg-top-of-zurich.html             |   247 +
+ gitignore.txt                                      |     5 +-
+ improvedscript.py => improvisedscript_7.0.py       |   287 +-
+ index.html                                         |   134 +-
+ sitemap.xml                                        |   706 +-
+ stationsteps-maps-8606569f2c45.txt                 |    13 +
+ 167 files changed, 42648 insertions(+), 648 deletions(-)
+(END)
