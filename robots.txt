@@ -1,3 +1,7 @@
 User-agent: *
-Allow: /
+Disallow: /es/
+Disallow: /de/
+Disallow: /it/
+Disallow: /fr/
+Allow: /en/
 Sitemap: https://stationsteps.com/sitemap.xml
